@@ -61,4 +61,8 @@ public class Commande {
     public Client getClient() {
         return client;
     }
+
+    public Cageot[] listeCageots() {
+        return cageots;
+    }
 }
